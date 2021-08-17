@@ -1,0 +1,44 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.first-wrapper {
+    background: url(./first.png) no-repeat;
+    background-size: cover;
+    padding: 10em 10em;
+    display: flex;
+}
+
+.first-left {
+    color: white;
+}
+
+.first-left h1 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 50em;
+}
+
+.first-left h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25em;
+}
+
+.first-right {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25em;
+}
+
+.first-right-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    background: white;
+}
