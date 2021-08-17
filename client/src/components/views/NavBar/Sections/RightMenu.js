@@ -29,7 +29,7 @@ function RightMenu(props) {
           <a href="/">PRODUCTS</a>
         </Menu.Item>
         <Menu.Item>
-          <a href="/">CONTACT US</a>
+          <a href="/contact">CONTACT US</a>
         </Menu.Item>
       </Menu>
     )

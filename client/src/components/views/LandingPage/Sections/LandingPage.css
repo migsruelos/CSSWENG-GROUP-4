@@ -1,0 +1,164 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.first-section {
+    color: white;
+    background: url('../images/Vista Real Residences (2) 1.png') no-repeat center center;
+    background-size: cover;
+    padding: 20em 10em;
+}
+
+.first-section h1 {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 500%;
+    text-align: right;
+}
+
+.first-section p {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 93.75%;
+    text-align: right;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    padding: 5em 20em;
+}
+
+.second-left {
+    font-family: 'Roboto', sans-serif;
+    font-style: light;
+    font-size: 1.125em;
+    color: black;
+    text-align: right;
+    margin: auto 0;
+}
+
+.second-break {
+	margin-top: 1.875em;
+	margin-bottom: 1.875em;
+	margin-left: 3.4375em;
+	border-left: 1px solid black;
+	height: 25em;
+}
+
+.second-right {
+    display: flex;
+    flex-direction: column;
+    margin: auto 5em;
+}
+
+.second-right-top {
+    font-size: 3.125em;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+.second-right-mid {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.875em;   
+    font-family: 'Roboto', sans-serif;
+}
+
+.second-right-bot {
+    color: black;
+    font-size: 0.875em; 
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0.3125em;
+}
+
+.second-right-bot-circle {
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    background: black;
+}
+
+.second-right-bot-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.third {
+    background: url(../images/third.png) no-repeat;
+    background-size: cover;
+    padding: 10em 10em;
+}
+
+.third h1 {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 500%;
+}
+
+.third p {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.25em;
+}
+
+.third a::hover {
+    background:rgba(0, 0, 0, 0.5);
+}
+
+.third-button {
+    color: white;
+    background: black;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9375em;
+    width: 12.5em;
+    height: 2.625em;
+    user-select: none;
+    padding-top: .3125em;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: row;
+    padding: 5em 0;
+}
+
+.fourth-left {
+    padding: auto;
+}
+
+.fourth-left img {
+    margin-left:10em;
+    width: 110%;
+}
+
+.fourth-right {
+    display: flex;
+    flex-direction: column;
+    margin: 10em auto;
+}
+
+.fourth-right h1 {
+    color: black;
+    font-family: 'Questrial', sans-serif;
+    font-size: 500%;
+}
+
+.fourth-right p {
+    color:black;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.25em;
+}
+
+.fourth-button {
+    color: white;
+    background: black;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.0625em;
+    width: 12.5em;
+    height: 2.625em;
+    user-select: none;
+    padding-top: .475em;
+}
