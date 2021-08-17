@@ -22,7 +22,7 @@ const SecondSection = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br/>
                     tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <div>
+                <div className='second-right-bot-wrapper'>
                     <div className='second-right-bot-circle'/>
                     <p className='second-right-bot'> Lorem Ipsum dolor</p>
                 </div>

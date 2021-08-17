@@ -32,6 +32,7 @@
 
 .second-left {
     font-family: 'Roboto', sans-serif;
+    font-style: light;
     font-size: 1.125em;
     color: black;
     text-align: right;
@@ -68,6 +69,7 @@
     color: black;
     font-size: 0.875em; 
     font-family: 'Roboto', sans-serif;
+    margin-left: 0.3125em;
 }
 
 .second-right-bot-circle {
@@ -75,4 +77,88 @@
     height: 1.5em;
     width: 1.5em;
     background: black;
+}
+
+.second-right-bot-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.third {
+    background: url(../images/third.png) no-repeat;
+    background-size: cover;
+    padding: 20em 10em;
+}
+
+.third h1 {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 500%;
+}
+
+.third p {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.25em;
+}
+
+.third a::hover {
+    background:rgba(0, 0, 0, 0.5);
+}
+
+.third-button {
+    color: white;
+    background: black;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9375em;
+    width: 12.5em;
+    height: 2.625em;
+    user-select: none;
+    padding-top: .3125em;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: row;
+    padding: 5em 0;
+}
+
+.fourth-left {
+    padding: auto;
+}
+
+.fourth-left img {
+    margin-left:10em;
+    width: 110%;
+}
+
+.fourth-right {
+    display: flex;
+    flex-direction: column;
+    margin: 10em auto;
+}
+
+.fourth-right h1 {
+    color: black;
+    font-family: 'Questrial', sans-serif;
+    font-size: 500%;
+}
+
+.fourth-right p {
+    color:black;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.25em;
+}
+
+.fourth-button {
+    color: white;
+    background: black;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9375em;
+    width: 12.5em;
+    height: 2.625em;
+    user-select: none;
+    padding-top: .3125em;
 }

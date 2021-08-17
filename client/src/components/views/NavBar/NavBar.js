@@ -21,6 +21,7 @@ function NavBar() {
       <div className="menu__logo">
         {/* <a href="/"><img className="logo" src={logo} /></a> */}
         <a href="/">
+          <img src={logo} />
           FOUR T'S GLASS AND ALUMINUM
         </a>
       </div>
