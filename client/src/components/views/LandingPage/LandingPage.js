@@ -1,14 +1,12 @@
 import React from 'react'
 import { FaCode } from "react-icons/fa";
+import FirstSection from './Sections/FirstSection';
 
 function LandingPage() {
     return (
-        <>
-            <div className="app">
-                <FaCode style={{ fontSize: '4rem' }} /><br />
-                <span style={{ fontSize: '2rem' }}>Null</span>
-            </div>
-        </>
+        <div>
+            <FirstSection/>
+        </div>
     )
 }
 

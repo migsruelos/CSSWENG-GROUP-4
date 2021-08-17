@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.first-section {
+    color: white;
+    background: url('../images/Vista Real Residences (2) 1.png') no-repeat center center;
+    background-size: cover;
+    padding: 20em;
+}
+
+.first-section h1 {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 80px;
+    text-align: right;
+}
+
+.first-section p {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: right;
+}
