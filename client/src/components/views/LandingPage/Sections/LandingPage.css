@@ -27,7 +27,7 @@
 .second {
     display: flex;
     justify-content: center;
-    padding: 10em 20em;
+    padding: 5em 20em;
 }
 
 .second-left {
@@ -87,7 +87,7 @@
 .third {
     background: url(../images/third.png) no-repeat;
     background-size: cover;
-    padding: 20em 10em;
+    padding: 10em 10em;
 }
 
 .third h1 {
@@ -156,9 +156,9 @@
     background: black;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-    font-size: 0.9375em;
+    font-size: 1.0625em;
     width: 12.5em;
     height: 2.625em;
     user-select: none;
-    padding-top: .3125em;
+    padding-top: .475em;
 }
