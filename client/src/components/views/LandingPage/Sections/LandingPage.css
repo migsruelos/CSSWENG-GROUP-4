@@ -1,22 +1,78 @@
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .first-section {
     color: white;
     background: url('../images/Vista Real Residences (2) 1.png') no-repeat center center;
     background-size: cover;
-    padding: 20em;
+    padding: 20em 10em;
 }
 
 .first-section h1 {
     color: white;
     font-family: 'Questrial', sans-serif;
-    font-size: 80px;
+    font-size: 500%;
     text-align: right;
 }
 
 .first-section p {
     color: white;
     font-family: 'Quicksand', sans-serif;
+    font-size: 93.75%;
     text-align: right;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    padding: 10em 20em;
+}
+
+.second-left {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125em;
+    color: black;
+    text-align: right;
+    margin: auto 0;
+}
+
+.second-break {
+	margin-top: 1.875em;
+	margin-bottom: 1.875em;
+	margin-left: 3.4375em;
+	border-left: 1px solid black;
+	height: 25em;
+}
+
+.second-right {
+    display: flex;
+    flex-direction: column;
+    margin: auto 5em;
+}
+
+.second-right-top {
+    font-size: 3.125em;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+.second-right-mid {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.875em;   
+    font-family: 'Roboto', sans-serif;
+}
+
+.second-right-bot {
+    color: black;
+    font-size: 0.875em; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.second-right-bot-circle {
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    background: black;
 }

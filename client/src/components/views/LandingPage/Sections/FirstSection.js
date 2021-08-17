@@ -7,7 +7,7 @@ const FirstSection = () => {
         <div>
             <div className="first-section">
                 <h1>FOUR T'S <br/>  GLASS AND ALUMINUM</h1>
-                <p>TRUST | TEAMWORK | COMMITMENT</p>
+                <p>TRUST  |  TEAMWORK  |  COMMITMENT</p>
             </div>
         </div>
     )
