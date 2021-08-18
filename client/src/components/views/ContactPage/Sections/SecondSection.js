@@ -3,16 +3,16 @@ import './Contact.css'
 
 const SecondSection = () => {
     return (
-        <div className='second'>
+        <div className='second-contact'>
 
-            <div className='second-left'>
+            <div className='second-contact-left'>
                 <h1>
                     CONTACT <br/>
                     FORM
                 </h1>
             </div>
 
-            <div className='second-right'>
+            <div className='second-contact-right'>
                 <form id='contactForm'>
                     <input placeholder='Name'/> <br/>
                     <input placeholder='Email'/> <br/>
