@@ -7,8 +7,9 @@
 .first-wrapper {
     background: url(./first.png) no-repeat;
     background-size: cover;
-    padding: 10em 10em;
+    padding: 20em 10em;
     display: flex;
+    justify-content: space-between;
 }
 
 .first-left {
@@ -16,24 +17,35 @@
 }
 
 .first-left h1 {
+    color: white;
     font-family: 'Questrial', sans-serif;
-    font-size: 50em;
+    font-size: 6em;
 }
 
 .first-left h2 {
+    color: white;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.25em;
+    margin-top: -2em;
 }
 
 .first-right {
     color: white;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.25em;
+    text-align: right;
 }
 
 .first-right-wrapper {
     display: flex;
     flex-direction: row;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.first-right-wrapper p {
+    color: white;
+    text-align: right;
 }
 
 .circle {
@@ -41,4 +53,60 @@
     height: 1.5em;
     width: 1.5em;
     background: white;
+    margin-left: 10px;
+}
+
+.second-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+}
+
+.second-contact-left {
+    background: #0E0E0E;
+    background-size: cover;
+    flex-grow: 1;
+    padding: 5em 5em;
+    margin: 0;
+}
+
+.second-contact-left h1 {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4.375em;
+    text-align: right;
+}
+
+.second-contact-right {
+    flex-basis: 50em;
+    padding: 5em 5em;
+}
+
+.second-contact-right form input, form textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.second-contact-right form input {
+    padding: 0.25em 0.875em;
+}
+
+.second-contact-right form textarea {
+    padding: 0.25em 0.875em;
+    padding-top: 0.5em;
+    resize: none;
+}
+
+.form-button {
+    background: black;
+    color: white;
+    font-size: 1.125em;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    width: 12.5em;
+    height: 2.625em;
+    border: none;
 }

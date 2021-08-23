@@ -15,7 +15,7 @@ const FirstSection = () => {
                         <p>FOUR T'S GLASS AND ALUMINUM</p>
                         <div className="circle"/>
                     </div>
-                    <div>
+                    <div className="first-right-wrapper">
                         <p>FourTsAluminumGlass@gmail.com</p>
                         <div className="circle"/>
                     </div>
