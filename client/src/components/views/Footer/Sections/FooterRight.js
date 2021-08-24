@@ -3,24 +3,24 @@ import './Footer.css';
 
 function FooterRight() {
     return(
-        <div class = "footer-right">
-			<div class = "footer-product-info">
-				<p class = "title">Product</p>
+        <div className = "footer-right">
+			<div className = "footer-product-info">
+				<p className = "title">Product</p>
 				<p>Product</p>
 				<p>Product</p>
 				<p>Product</p>
 				<p>Product</p>
 				<p>Product</p>
-				<p class = "copyright-text">© 2010 — 2020</p>
+				<p className = "copyright-text">© 2010 — 2020</p>
 			</div>
-			<div class = "footer-company-info">
-				<p class = "title">Company</p>
+			<div className = "footer-company-info">
+				<p className = "title">Company</p>
 				<p>Company</p>
 				<p>Company</p>
 				<p>Company</p>
 				<p>Company</p>
 				<p>Company</p>
-				<p class = "privacy-text">Privacy — Terms</p>
+				<p className = "privacy-text">Privacy — Terms</p>
 			</div>
         </div>
     )
