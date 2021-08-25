@@ -49,7 +49,7 @@ function ProductPage() {
   }
   return (
     <div className="App">
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center", marginTop: 20 }}>
         <h2>Product Catalog</h2>
         <p>Different types of products designed for our clients.</p>
         <div style={{
