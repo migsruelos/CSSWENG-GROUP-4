@@ -1,0 +1,92 @@
+body {
+	font-family: Roboto;
+}
+
+.product-catalog {
+	margin-top: 70px;
+	margin-bottom: 40px;
+	justify-content: center;
+}
+
+.product-catalog-title {
+	text-align: center;
+	font-size: 24px;
+}
+
+.product-catalog-description {
+	margin-bottom: 90px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.product-catalog-listing {
+	justify-content: center;
+	display: flex;
+}
+
+.product-block {
+	padding: 30px;
+}
+
+.product-img {
+	height: 400px;
+	width: 400px;
+	background-color: black;
+}
+
+.product-title {
+	margin-top: 34px;
+	font-size: 24px;
+}
+
+.learn-more {
+	margin-top: 45px;
+	font-size: 14px;
+}
+
+.service-catalog {
+	background-color: white;
+	padding-top: 70px;
+	padding-bottom: 100px;
+	justify-content: center;
+}
+
+.service-catalog-title {
+	text-align: center;
+	font-size: 24px;
+}
+
+.service-catalog-description {
+	margin-bottom: 90px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.service-catalog-listing {
+	justify-content: center;
+	display: flex;
+}
+
+.service-block {
+	padding: 20px;
+}
+
+.service-img {
+	height: 300px;
+	width: 300px;
+	background-color: black;
+}
+
+.service-footer {
+	padding-top: 1px;
+	background-color: #D4D4D4;
+}
+
+.service-footer p {
+	margin-left: 24px;
+	padding-bottom: 24px;
+}
+
+.service-title {
+	font-size: 20px;	
+}
