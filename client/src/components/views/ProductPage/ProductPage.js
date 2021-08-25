@@ -1,5 +1,6 @@
 import { Carousel } from 'react-carousel-minimal';
 import React, { Component }  from 'react';
+import './products.css';
 import product1 from './images/product 1.jpg';
 import product2 from './images/product 2.jpg';
 import product3 from './images/product 3.jpg';
@@ -40,7 +41,7 @@ function ProductPage() {
   ];
 
   const captionStyle = {
-    fontSize: '2em',
+    fontSize: '5em',
     fontWeight: 'bold',
   }
   const slideNumberStyle = {
@@ -82,7 +83,47 @@ function ProductPage() {
           />
         </div>
       </div>
+      <div className="service-catalog">
+      <div style={{ textAlign: "center", marginTop: 150 }}>
+          <p className="service-catalog-title">SERVICE CATALOG</p>
+          <p className="service-catalog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <br />et dolore magna aliqua. Ut enim ad minim veniam,</p>
+          <div className="service-catalog-listing">
+            <div className="service-block">
+              <div className="service-img"><img src={product1} width="300" height="300"/></div>
+              <div className="service-footer">
+                <p className="service-title">SERVICE 1</p>
+                <p className="learn-more">See More &gt;</p>
+              </div>
+            </div>
+            <div className="service-block">
+              <div className="service-img"><img src={product3} width="300" height="300" /></div>
+              <div className="service-footer">
+                <p className="service-title">SERVICE 2</p>
+                <p className="learn-more">See More &gt;</p>
+              </div>
+            </div>
+            <div className="service-block">
+              <div className="service-img"><img src={product4} width="300" height="300" /></div>
+              <div className="service-footer">
+                <p className="service-title">SERVICE 3</p>
+                <p className="learn-more">See More &gt;</p>
+              </div>
+            </div>
+            <div className="service-block">
+              <div className="service-img"><img src={product5} width="300" height="300" /></div>
+              <div className="service-footer">
+                <p className="service-title">SERVICE 4</p>
+                <p className="learn-more">See More &gt;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+    );
+  
     </div>
+    
   );
 }
 
