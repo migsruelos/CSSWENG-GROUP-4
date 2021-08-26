@@ -50,9 +50,9 @@ function ProductPage() {
   }
   return (
     <div className="App">
-      <div style={{ textAlign: "center", marginTop: 20 }}>
-        <h2>PRODUCT CATALOG</h2>
-        <p>Different types of products designed for our clients.</p>
+      <div style={{ textAlign: "center", marginTop: 10 }}>
+        <h2 style={{ color: '#262626' }}>PRODUCT CATALOG</h2>
+        <p style={{ color: '#262626' }}>Different types of products designed for our clients.</p>
         <div style={{
           padding: "0 20px"
         }}>
@@ -74,11 +74,13 @@ function ProductPage() {
             slideImageFit="cover"
             thumbnails={true}
             thumbnailWidth="100px"
+            backgroundColor= '#262626'
             style={{
               textAlign: "center",
               maxWidth: "850px",
               maxHeight: "500px",
               margin: "40px auto",
+              backgroundColor: '#262626'
             }}
           />
         </div>
