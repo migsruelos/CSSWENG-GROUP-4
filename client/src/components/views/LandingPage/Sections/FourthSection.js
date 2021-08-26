@@ -12,7 +12,7 @@ const FourthSection = () => {
                 <div className="fourth-right">
                     <h1>OUR PROJECTS</h1>
                     <p>SEE ALL THE PREVIOUS PROJECTS WE'VE WORKED ON</p>
-                    <a href="/">
+                    <a href="/products">
                         <div className="fourth-button">
                             ALL PROJECTS
                         </div>

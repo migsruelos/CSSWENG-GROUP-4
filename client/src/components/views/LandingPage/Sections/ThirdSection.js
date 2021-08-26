@@ -11,7 +11,7 @@ const ThirdSection = () => {
                 <p>
                     CHECK OUT WHAT WE HAVE TO OFFER
                 </p>
-                <a href="/">
+                <a href="/products">
                     <div className='third-button'><p>GO TO PRODUCTS</p></div>
                 </a>
             </div>
