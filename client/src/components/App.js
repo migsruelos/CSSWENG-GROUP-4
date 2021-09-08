@@ -9,6 +9,7 @@ import NavBar from "./views/NavBar/NavBar";
 import Footer from "./views/Footer/Footer"
 import ContactUs from "./views/ContactPage/ContactUs.js"
 import ProductPage from "./views/ProductPage/ProductPage.js"
+import AdminDashboard from './views/AdminDashboard/AdminDashboard';
 
 //null   Anyone Can go inside
 //true   only logged in user can go inside
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/" component={Auth(LandingPage, null)} />
           <Route exact path="/products" component={Auth(ProductPage, null)}/>
           <Route exact path="/contact" component={Auth(ContactUs, null)} />
+          <Route exact path="/admin" component={AdminDashboard} />
         </Switch>
       </div>
       <Footer />

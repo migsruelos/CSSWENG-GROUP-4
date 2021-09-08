@@ -1,0 +1,31 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+
+.main-wrapper {
+    padding: 20px;
+    background: url('./admin-bg.png') no-repeat center center;
+}
+
+.grid-containter {
+    display: grid;
+    grid-template-areas:
+    'tracker tracker tracker income income income'
+    'tracker tracker tracker income income income'
+    'tracker tracker tracker income income income'
+    'breakdown breakdown breakdown income income income'
+    'breakdown breakdown breakdown ongoing ongoing ongoing';
+
+    grid-gap: 10px;
+}
+
+.item1 {
+    grid-area: tracker;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 8px;
+}
+
+.item1-top {
+    display: flex;
+
+}
